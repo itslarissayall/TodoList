@@ -1,0 +1,157 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, rgb(71, 141, 211), rgb(119, 127, 170));
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    display: flexbox;
+    background-color: rgba(100, 103, 112, 0.678);
+    position: relative;
+    margin-left: 50%;
+    padding: 50px;
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    border: none;
+    transform: translateX(-50%);
+    border: rgb(255, 255, 255) solid 2px;
+    border-radius: 10px;
+      
+}
+#task {
+    position: relative;
+    padding-left: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80%;
+    background-image: linear-gradient(to left, rgb(236, 231, 231), rgb(192, 190, 190));
+}
+#task:focus {
+    outline: none;
+    border-color: #b7bbc0;
+    box-shadow: 0 0 10px #a5a3a3;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    height: 30px;
+    background-image: linear-gradient(to left, white, rgb(219, 216, 216));
+}
+#add {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    color: rgb(90, 32, 197);
+    background-image: url("./assets/add.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+#add:hover {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    color: rgb(90, 32, 197);
+    background-image: url("./assets/add-1.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+ul{
+    padding: 0;
+    position: relative;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color:rgb(34, 33, 33);
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 5px;
+    
+    
+}
+#pencil {
+    position: absolute;
+    width: 20%;
+    left: 100%;
+    top:0%;
+    transform: translate(-50%,-50%);
+}
+li {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(to right, white, rgb(166, 176, 223));
+    list-style: none;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px;
+    font-family: monospace;
+    color: rgb(58, 53, 53);
+    font-size: 18px;
+}
+.done {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    background-image: linear-gradient(to right, rgb(141, 190, 145), rgb(38, 189, 70));
+    margin: 5px;
+    list-style: none;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+button {
+    float: right;
+    line-height: 40px;
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-image: url("./assets/trash-1.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+button:hover {
+    float: right;
+    background-color: none;
+    border: none;
+    color:rgb(252, 7, 7);
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    background-image: url("./assets/trash-2.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
